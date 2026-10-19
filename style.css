@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+
+.ancho {
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.margen {
+  padding: 15px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.negritas {
+  font-weight: bold;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:#FCF8EF;
+}
+.linea{
+  background-color: #E5357E;
+  width: 100%;
+  height: 15px;
+}
+.linea2{
+  background-color: #E5357E;
+  height: 15px;
+}
+
+.carne{
+  background-color: #FCF8EF;
+}
+
+.cont_logo{
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cont_logo img{
+  width: 100%;
+}
+
+.cont_redes{
+  width: 84%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.cont_redes a{
+  display: inline-block;
+  width: 75px;
+  margin-right: 20px;
+}
+
+.cont_redes img{
+  width: 100%;
+}
+
+.menu {
+  border: #674D48 solid 2px;
+}
+
+.menu a{
+  color:#000;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.menu a:hover{
+  color:#E5357E;
+}
+
+.cont_promo{
+  min-height: 508px;
+  color: #fff;
+  background-image:url("imagenes/fondopiedras.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.promo_text p{
+  width: 410px;
+  margin: auto;
+}
+
+.btn_rosa{
+  background-color: #E5357E;
+  color: white;
+  text-decoration: none;
+  padding: 10px 35px;
+  margin:20px;
+  display: inline-block;
+}
+
+.btn_rosa_trans{
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  padding: 10px 35px;
+  display: inline-block;
+  border: #E5357E solid 3px;
+}
+
+.cont_produc{
+  background-color: #fff;
+  text-align: center;
+}
+
+.cont_tex_produc{
+  display: inline-block;
+  vertical-align:middle;
+  width: 490px;
+  margin: 24px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.cont_img_produc{
+  display: inline-block;
+  vertical-align: middle;
+  width: 490px;
+}
+
+.cont_img_talento{
+  display: inline-block;
+  vertical-align: middle;
+  width: 490px;
+
+}
+
+.cont_tex_talento{
+  display: inline-block;
+  vertical-align:middle;
+  width: 490px;
+  margin: 24px;
+  justify-content: flex-start;
+  text-align: left;
+
+}
+
+.cont_talento{
+  text-align: center;
+}
+
+.cont_cuadros_fin{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0;
+
+}
+
+.cuado1{
+  display: inline-block;
+  vertical-align: top;
+  width: 31.8%;
+  min-height: 340px;
+  margin: 0 .5% 20px;
+  padding: 15px;
+  background-color: #FFE8A3;
+  font-size: 16px;
+}
+
+.cuado2{
+  display: inline-block;
+  vertical-align: top;
+  width: 31.8%;
+  min-height: 340px;
+  margin: 0 .5% 20px;
+  padding: 15px;
+  background-color: #FFE8A3;
+  font-size: 16px;
+}
+
+.cuado3{
+  display: inline-block;
+  vertical-align: top;
+  width: 31.8%;
+  min-height: 340px;
+  margin: 0 .5% 20px;
+  padding: 15px;
+  background-color: #FFE8A3;
+  font-size: 16px;
+}
+
+.cuado1 img{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cuado2 img{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cuado3 img{
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cuado1 p{
+  min-height: 72px;
+  text-align: left;
+}
+
+.cuado2 p{
+  min-height: 72px;
+  text-align: left;
+}
+
+.cuado3 p{
+  min-height: 72px;
+  text-align: left;
+}
+
+.pie_pagina{
+  background-color: #fff;
+}
+.pie_pagina img{
+
+}
+.pie_pagina a{
+  color: #E5357E;
+}
